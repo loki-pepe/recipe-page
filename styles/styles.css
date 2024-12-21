@@ -17,6 +17,16 @@
     --stone-900: #F3E5D7;
     --brown-800: #854632;
     --white: #FFF;
+
+    /* Spacing */
+    --space-1600: 128px;
+    --space-600: 48px;
+    --space-500: 40px;
+    --space-400: 32px;
+    --space-300: 24px;
+    --space-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
 }
 
 *, *::before, *::after {
