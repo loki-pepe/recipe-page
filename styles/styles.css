@@ -8,6 +8,17 @@
     src: local("Outfit"), url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 
+:root {
+    /* Colors */
+    --rose: #7A284E;
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-900: #F3E5D7;
+    --brown-800: #854632;
+    --white: #FFF;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
