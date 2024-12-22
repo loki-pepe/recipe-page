@@ -65,12 +65,17 @@ img {
 
 main {
     background-color: var(--white);
+    padding: var(--space-500) var(--space-400);
 }
 
 @media (min-width: 600px) {
 
     h1 {
         font: var(--text-1-desktop);
+    }
+
+    main {
+        padding: var(--space-500);
     }
 
 }
