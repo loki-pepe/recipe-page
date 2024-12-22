@@ -68,6 +68,10 @@ main {
     padding: 0 var(--space-400) var(--space-500);
 }
 
+section {
+    margin: var(--space-400) 0;
+}
+
 @media (min-width: 600px) {
 
     h1 {
