@@ -50,3 +50,9 @@ body {
     min-height: 100vh;
     background-color: var(--stone-100);
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
