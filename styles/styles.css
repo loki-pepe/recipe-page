@@ -53,6 +53,7 @@ article {
 aside {
     margin: var(--space-400) 0;
     background-color: var(--rose-50);
+    padding: var(--space-300);
 }
 
 body {
