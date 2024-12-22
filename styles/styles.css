@@ -56,6 +56,11 @@ aside {
     padding: var(--space-300);
 }
 
+aside h2 {
+    font: var(--text-3);
+    color: var(--rose-800);
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     min-height: 100vh;
