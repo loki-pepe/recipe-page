@@ -65,7 +65,7 @@ img {
 
 main {
     background-color: var(--white);
-    padding: var(--space-500) var(--space-400);
+    padding: 0 var(--space-400) var(--space-500);
 }
 
 @media (min-width: 600px) {
