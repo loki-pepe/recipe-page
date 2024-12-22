@@ -48,6 +48,7 @@
 
 article {
     padding: var(--space-500) var(--space-400);
+    font: var(--text-4);
 }
 
 aside {
@@ -83,10 +84,6 @@ img {
 main {
     background-color: var(--white);
     padding: 0;
-}
-
-p {
-    font: var(--text-4);
 }
 
 section {
