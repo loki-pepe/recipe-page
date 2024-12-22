@@ -10,7 +10,8 @@
 
 :root {
     /* Colors */
-    --rose: #7A284E;
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
     --stone-900: #312E2C;
     --stone-600: #5F564D;
     --stone-150: #E3DDD7;
@@ -47,6 +48,11 @@
 
 article {
     padding: var(--space-500) var(--space-400);
+}
+
+aside {
+    margin: var(--space-400) 0;
+    background-color: var(--rose-50);
 }
 
 body {
