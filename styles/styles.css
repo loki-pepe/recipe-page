@@ -65,7 +65,7 @@ img {
 
 main {
     background-color: var(--white);
-    padding: 0 var(--space-400) var(--space-500);
+    padding: var(--space-500) var(--space-400);
 }
 
 section {
