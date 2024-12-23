@@ -112,6 +112,10 @@ ol, ul {
     padding-left: var(--space-300);
 }
 
+p {
+    margin: var(--space-300) 0;
+}
+
 section {
     margin: var(--space-400) 0;
 }
