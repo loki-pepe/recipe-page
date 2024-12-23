@@ -93,6 +93,10 @@ img {
     height: auto;
 }
 
+li {
+    padding-left: var(--space-200);
+}
+
 main {
     background-color: var(--white);
     padding: 0;
@@ -101,6 +105,10 @@ main {
 ::marker {
     color: var(--brown-800);
     font: var(--text-4-bold);
+}
+
+ol, ul {
+    padding-left: var(--space-300);
 }
 
 section {
