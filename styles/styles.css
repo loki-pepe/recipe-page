@@ -120,14 +120,30 @@ section {
     margin: var(--space-400) 0;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
 td {
     font: var(--text-4-bold);
     color: var(--brown-800);
+    padding-right: var(--space-400);
+    padding-left: var(--space-100);
 }
 
 th {
     font: var(--text-4);
     text-align: left;
+    padding-left: var(--space-400);
+}
+
+td, th {
+    border-bottom: 1px solid var(--stone-150);
+}
+
+tr:last-of-type td, tr:last-of-type th {
+    border: none;
 }
 
 @media (min-width: 600px) {
