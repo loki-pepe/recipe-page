@@ -60,6 +60,7 @@ aside {
 aside h2 {
     font: var(--text-3);
     color: var(--rose-800);
+    margin-bottom: var(--space-200);
 }
 
 body {
