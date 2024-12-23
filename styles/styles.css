@@ -125,6 +125,10 @@ section {
     margin: var(--space-400) 0;
 }
 
+section:last-of-type {
+    margin: var(--space-400) 0 0;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
