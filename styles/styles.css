@@ -99,6 +99,7 @@ main {
 
 ::marker {
     color: var(--brown-800);
+    font: var(--text-4-bold);
 }
 
 section {
