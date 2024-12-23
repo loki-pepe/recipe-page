@@ -87,6 +87,11 @@ h2 {
     margin-bottom: var(--space-300);
 }
 
+hr {
+    border-width: 0 0 1px;
+    color: var(--stone-150);
+}
+
 img {
     display: block;
     width: 100%;
