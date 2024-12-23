@@ -91,6 +91,10 @@ main {
     padding: 0;
 }
 
+::marker {
+    color: var(--brown-800);
+}
+
 section {
     margin: var(--space-400) 0;
 }
