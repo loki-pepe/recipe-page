@@ -95,6 +95,7 @@ img {
 
 li {
     padding-left: var(--space-200);
+    margin-top: var(--space-100);
 }
 
 main {
