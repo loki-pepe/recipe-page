@@ -145,10 +145,17 @@ th {
 
 td, th {
     border-bottom: 1px solid var(--stone-150);
+    padding-top: var(--space-150);
+    padding-bottom: var(--space-150);
+}
+
+tr:first-of-type td, tr:first-of-type th {
+    padding-top: 0;
 }
 
 tr:last-of-type td, tr:last-of-type th {
     border: none;
+    padding-bottom: 0;
 }
 
 @media (min-width: 600px) {
