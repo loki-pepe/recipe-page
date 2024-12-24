@@ -75,7 +75,6 @@ body {
     color: var(--stone-600);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 h1 {
@@ -100,7 +99,6 @@ img {
     display: block;
     width: 100%;
     height: auto;
-    max-height: 300px;
 }
 
 li {
@@ -111,7 +109,7 @@ li {
 main {
     background-color: var(--white);
     padding: 0;
-    flex: 736px 0 1;
+    flex: 616px 0 1;
 }
 
 ::marker {
@@ -169,14 +167,24 @@ tr:last-of-type td, tr:last-of-type th {
     vertical-align: bottom;
 }
 
-@media (min-width: 600px) {
+@media (width > 600px) {
+    
+    article {
+        padding: var(--space-500) 0 0;
+    }
 
     body {
         padding: var(--space-1600) var(--space-600);
+        align-items: center;
     }
 
     h1 {
         font: var(--text-1-desktop);
+    }
+
+    img {
+        height: 300px;
+        object-fit: cover;
     }
 
     main {
@@ -184,4 +192,10 @@ tr:last-of-type td, tr:last-of-type th {
         border-radius: 24px;
     }
 
+}
+
+@media (width > 768px) {
+    main {
+       flex: 736px 0 1;
+    }
 }
