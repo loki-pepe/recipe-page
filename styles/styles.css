@@ -150,17 +150,17 @@ th {
 
 td, th {
     border-bottom: 1px solid var(--stone-150);
-    height: 48px
+    height: calc(var(--space-300) + 2 * var(--space-150));
 }
 
 tr:first-of-type td, tr:first-of-type th {
-    height: 36px;
+    height: calc(var(--space-300) + var(--space-150));
     vertical-align: top;
 }
 
 tr:last-of-type td, tr:last-of-type th {
     border: none;
-    height: 36px;
+    height: calc(var(--space-300) + var(--space-150));
     vertical-align: bottom;
 }
 
