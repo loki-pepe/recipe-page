@@ -73,6 +73,9 @@ body {
     min-height: 100vh;
     background-color: var(--stone-100);
     color: var(--stone-600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -107,6 +110,7 @@ li {
 main {
     background-color: var(--white);
     padding: 0;
+    flex: 736px 0 1;
 }
 
 ::marker {
