@@ -90,6 +90,7 @@ h2 {
 hr {
     border-width: 0 0 1px;
     color: var(--stone-150);
+    margin-top: -1px;
 }
 
 img {
